@@ -151,7 +151,7 @@ function renderImages(files) {
                             <img class="card-img-top" src="${f.url}" alt="" style="height: 10rem; object-fit:cover;">
                             <div class="card-body">
                                 <p class="card-text fw-bold">${f.name}</p>
-                                <a href="${f.url2}" target="_blank" class="btn btn-primary d-grid">Ver imagen</a>
+                                <a href="${f.url2}" target="_blank" class="btn btn-primary d-grid" style="color: #00a19b;">Ver imagen</a>
                             </div>
                         </div>
                     </div>
@@ -179,4 +179,5 @@ document.getElementById("search").addEventListener("keyup", (event) => {
 
 // Iniciar indexado al cargar
 indexAllImages();
+
 document.getElementById("search").focus();
