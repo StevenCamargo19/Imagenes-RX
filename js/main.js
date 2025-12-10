@@ -3,7 +3,7 @@ if (sessionStorage.getItem("auth") !== "true") {
 }
 
 const API_KEY = "AIzaSyAVEahQPxCQuPAoFTHgwi5tQSQjG-bhTUQ";
-const ROOT_FOLDER = "1awfaanWwCbdTrYLxRYq1WNqEpE5pMiR3";
+const ROOT_FOLDER = "1qQgQZNg33EQLrPp0b5WLWUoslvxRcLep";
 
 let ALL_FOLDER_IDS = [];
 let ALL_IMAGES = [];
