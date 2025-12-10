@@ -164,6 +164,10 @@ function searchImagesLocal(text) {
     return ALL_IMAGES.filter(img => img.name.includes(text));
 }
 
+function refresh(){
+    updateIncremental(5);
+}
+
 document.getElementById("btnRefresh").addEventListener("click", () => updateIncremental(5));
 
 document.getElementById("btnSearch").addEventListener("click", () => {
