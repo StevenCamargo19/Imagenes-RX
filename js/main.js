@@ -168,7 +168,6 @@ function refresh(){
     updateIncremental(5);
 }
 
-document.getElementById("btnRefresh").addEventListener("click", () => updateIncremental(5));
 
 document.getElementById("btnSearch").addEventListener("click", () => {
     const text = document.getElementById("search").value.trim();
